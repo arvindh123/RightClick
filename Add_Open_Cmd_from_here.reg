@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+
+
+ 
+[-HKEY_CLASSES_ROOT\Directory\shell\run]
+
+[HKEY_CLASSES_ROOT\Directory\shell\run]
+@="Open command window here"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\run\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\run]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\run]
+@="Open command window here"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\run\command]
+@="cmd.exe /s /k pushd \"%V\""
